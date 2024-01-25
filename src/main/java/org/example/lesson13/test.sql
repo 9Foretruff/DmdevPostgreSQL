@@ -1,6 +1,6 @@
 SELECT *
 FROM employee
-ORDER BY salary ASC
+ORDER BY salary
 LIMIT 2;
 
 SELECT avg(emp1.salary)
