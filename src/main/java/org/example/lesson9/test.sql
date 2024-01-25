@@ -4,7 +4,7 @@ SELECT DISTINCT id,
                 salary
 FROM employee AS emp
 WHERE salary >= 1000
-ORDER BY first_name, salary DESC
+ORDER BY first_name, salary DESC;
 -- <> == !=
 
 SELECT DISTINCT id,
@@ -13,7 +13,7 @@ SELECT DISTINCT id,
                 salary
 FROM employee AS emp
 WHERE last_name LIKE '%ov%'
-ORDER BY first_name, salary DESC
+ORDER BY first_name, salary DESC;
 
 -- ILIKE - dont care about register
 
