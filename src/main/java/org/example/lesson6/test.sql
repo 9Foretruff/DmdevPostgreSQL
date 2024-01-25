@@ -9,6 +9,7 @@ CREATE TABLE company_storage.company
     UNIQUE (name , date)
 --NOT NULL
 --UNIQUE
+--CHECK
 --PRIMARY KEY == UNIQUE NOT NULL
 --FOREIGN KEY
 );
