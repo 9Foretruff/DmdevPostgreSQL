@@ -26,4 +26,4 @@ FROM (SELECT *
                    ('Petr', 'Sidorov', 1900, 3),
                    ('Sveta', 'Svetikova', 3000, 2),
                    ('Oleg', 'Olegov', 2500, 3),
-                   ('Maksim', 'Rokitko', 15000, 1)) ) AS table1;
+                   ('Maksim', 'Rokitko', 15000, 1)) t ) AS table1;
