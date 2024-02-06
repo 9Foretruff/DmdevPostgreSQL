@@ -4,3 +4,6 @@
 -- \dt flight
 -- \d flight
 
+-- \c flight_repository -- подключиться к бд
+-- \q or exit
+
